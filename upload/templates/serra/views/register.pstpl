@@ -1,0 +1,51 @@
+<div class='jumbotron'>
+    <div class="container clearfix">
+        <div class="row" id="welcome-container">
+    <div class="col-sm-12 ">
+        <h2 style="text-align: center;">Plataforma de Participação Pública para a<br />
+Revisão Plano Diretor de Veranópolis</h2>
+        <p class="surveydescription text-info"></p><table align="center" border="0" cellpadding="0" cellspacing="1" style="width: 800px;">
+    <tbody>
+		<tr>
+			<td style="text-align: center;"><img alt="" src="./images/foto.jpg" style="width: 800px; height: 400px;"></td>
+		</tr>
+	</tbody>
+</table>
+
+<!-- Survey Welcome -->
+<div class="row survey-welcome">
+    <div class="col-sm-12 ">
+        <p class="surveywelcome">
+            </p><table align="center" border="0" cellpadding="0" cellspacing="1" style="width: 800px;">
+    <tbody>
+		<tr>
+		<td>
+    		<p style="text-align: center;"><span style="font-size:18px;"><strong>Bem-vindo(a) à plataforma de Participação Pública para a Revisão do Plano Diretor!</strong></span></p>
+
+           <p><span style="font-size:14px;">A Prefeitura Municipal de Veranópolis, por meio desta plataforma, gostaria de consultar os cidadãos sobre informações e sugestões para construção de diretrizes que nortearão a elaboração do Plano Diretor municipal. As informações coletadas são confidenciais e servirão para a identificação das demandas encontradas nos bairros e localidades da nossa cidade.</span></p>
+
+            <p><span style="font-size:14px;">A plataforma foi desenvolvida para funcionar em computadores pessoais como desktops e notebooks. O tempo médio para responder esse questionário é de 20 minutos. </span></p>
+
+            <p><span style="font-size:14px;">Além de perguntas abertas e de múltipla escolha, o questionário conta com o uso de mapas para o apontamento de informações. Para iniciar, faça o seu cadastro e acesse o questionário a partir do link que será enviado para o seu e-mail.</span></p>
+
+            <p></p>
+            <p></p>
+			<p style="text-align: center;"><img alt="" src="./images/logo.png" style="width: 800px; height: 100px;" /></p>
+			<p></p>
+			<p style="text-align: center;"><span style="font-size:12px;">Suporte técnico: gaup@gaup.com.br</span></p>
+    		<p></p>
+            <p></p>
+            </td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+    </div>
+</div>
+{REGISTERERROR}
+<div class="register-form">
+    <div class="container">{REGISTERFORM}</div>
+</div>
+<input type='hidden' class='hidemenubutton'/>

@@ -1,0 +1,18 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^veranopolis\.gaup\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.veranopolis\.gaup\.com\.br$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteRule ^/?$ "http\:\/\/veranopolis\.gaup\.com\.br\/index\.php\?r\=survey\/index\&sid\=591757\&lang\=pt\-BR" [R=301,L]
+RewriteCond %{HTTP_HOST} ^gs\.gaup\.com\.br$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.gs\.gaup\.com\.br$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/gs\.gaup\.com\.br\/index\.php\?r\=survey\/index\&sid\=491589\&lang\=pt\-BR" [R=301,L]
+
